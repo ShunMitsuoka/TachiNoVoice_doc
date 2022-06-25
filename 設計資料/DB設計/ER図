@@ -1,0 +1,17 @@
+命名規則
+先頭t_スネークケース
+
+userテーブル
+コアメンバーテーブル (user_id, village_id)
+グループメンバーテーブル (user_id, village_id)
+ホストテーブル (user_id, village_id)
+ビレッジテーブル (topic_id)
+topic ()
+意見テーブル (category_id, topic_id, hyouka_id)
+カテゴリーケーブル (意見_id, 方針_id)
+評価テーブル (意見_id)
+参加条件テーブル (village_id)
+満足度テーブル (方針_id)
+方針テーブル (category_id)
+問の事例集テーブル (topic_id, 方針_id, カテゴリ_id)
+お知らせテーブル
